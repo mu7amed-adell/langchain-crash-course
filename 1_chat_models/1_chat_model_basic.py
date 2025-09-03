@@ -3,7 +3,7 @@
 
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-
+from langchain_ollama import ChatOllama
 # Load environment variables from .env
 load_dotenv()
 
